@@ -121,7 +121,6 @@ export class FallbackAdapter implements ProviderAdapter {
     return {
       outcome: true,
       confidence: 0.85,
-      source: this.source,
       confidenceMetadata: {
         score: 0.85,
         method: "fallback-provider",
